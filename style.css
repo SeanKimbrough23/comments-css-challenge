@@ -8,3 +8,56 @@ footer {
   color: white;
   font-size: 14px;
 }
+body {
+  background-color: whitesmoke;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, sans-serif;
+}
+.comment {
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: gray;
+  display: flex;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.user-details {
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 30px;
+  display: flex;
+}
+.like-container p {
+  color: rgb(34, 34, 173);
+  margin: 20px 5px 15px 5px;
+}
+* {
+  margin: 5px;
+  padding: 5px;
+}
+.post {
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  background-color: white;
+  box-shadow: gray;
+}
+.user {
+  font-size: 15px;
+  font-weight: 15px;
+  color: rgb(0, 0, 125);
+}
+.user a {
+  text-decoration: none;
+  color: rgb(0, 0, 125);
+}
+.date {
+  font-size: 14px;
+  color: gray;
+}
+.post-wrapper {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
