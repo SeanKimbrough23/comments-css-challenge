@@ -11,7 +11,7 @@ footer {
 body {
   background-color: whitesmoke;
   font-size: 14px;
-  font-family: "Times New Roman", Times, sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .comment {
   padding: 25px;
@@ -154,14 +154,66 @@ footer a:hover {
   background-color: blue;
 }
 .delete:hover {
-  color: hsl(358, 88%, 56%);
+  color: hsl(357, 100%, 86%);
 }
 .delete:active {
-  color: hsl(358, 88%, 56%);
+  color: hsl(357, 100%, 86%);
 }
 .delete {
   font-size: 10px;
   font-weight: bold;
-  color: hsl(358, 88%, 56%);
+  color: hsl(357, 100%, 86%);
   margin-right: 10px;
+}
+.reply-btn:active {
+  color: hsl(238, 75%, 62%);
+}
+.edit:active {
+  color: hsl(238, 75%, 62%);
+}
+.edit:hover,
+.reply-btn:hover {
+  color: hsl(238, 75%, 62%);
+}
+.edit {
+  color: hsl(238, 75%, 62%);
+  font-size: 15px;
+  font-weight: bold;
+}
+.user-btn-group button {
+  background-color: white;
+  border: none;
+}
+.plus-btn img:hover,
+.minus-btn img:hover {
+  background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+.comment-text a:target {
+  text-decoration: none;
+}
+.comment-text a {
+  text-decoration: none;
+  color: blue;
+}
+.comment-text a:hover {
+  color: blue;
+}
+a:hover {
+  cursor: pointer;
+  color: linear-gradient(rgb(0 0 0/60%) 0 0);
+}
+.input-container {
+  margin-bottom: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  background-color: white;
+  gap: 20px;
+}
+/* Stretch Goals Make it fit to different screen sizes */
+@media only screen and (min-width: 2560px) {
+  .wrapper {
+    margin: 80px 600px;
+  }
 }
