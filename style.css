@@ -78,7 +78,7 @@ button:hover {
   font-size: 14px;
   text-align: center;
   width: 20px;
-  background-color: blue;
+  background-color: hsl(238, 40%, 52%);
   color: white;
 }
 .avatar {
@@ -105,7 +105,7 @@ footer a {
 }
 .reply-btn {
   border: none;
-  color: rgb(0, 0, 225);
+  color: hsl(238, 40%, 52%);
   background-color: white;
   font-size: 10x;
   font-weight: bold;
@@ -142,7 +142,7 @@ footer a:hover {
 #send-btn:hover {
   background-color: white;
   border: 2px solid blue;
-  color: blue;
+  color: hsl(238, 40%, 52%);
 }
 #send-btn {
   border-radius: 10px;
@@ -151,7 +151,7 @@ footer a:hover {
   color: white;
   width: 100px;
   height: 40px;
-  background-color: blue;
+  background-color: hsl(238, 40%, 52%);
 }
 .delete:hover {
   color: hsl(357, 100%, 86%);
@@ -166,17 +166,17 @@ footer a:hover {
   margin-right: 10px;
 }
 .reply-btn:active {
-  color: hsl(238, 75%, 62%);
+  color: hsl(238, 40%, 52%);
 }
 .edit:active {
-  color: hsl(238, 75%, 62%);
+  color: hsl(238, 40%, 52%);
 }
 .edit:hover,
 .reply-btn:hover {
-  color: hsl(238, 75%, 62%);
+  color: hsl(238, 40%, 52%);
 }
 .edit {
-  color: hsl(238, 75%, 62%);
+  color: hsl(238, 40%, 52%);
   font-size: 15px;
   font-weight: bold;
 }
